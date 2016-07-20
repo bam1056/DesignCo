@@ -1,0 +1,110 @@
+header {
+  background-color: #F7F7F7;
+  padding-bottom: 5px;
+  color: #000000;
+}
+a {
+  text-decoration:none;
+  color: #000000;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  color: #505050;
+}
+.top-red-line {
+  border-top: 4px solid red;
+  margin: 0 15%;
+}
+.primary-navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.primary-navbar {
+  width:75%;
+  margin-left: 15%;
+}
+
+.designLogo {
+  width: 90px;
+  height:20px;
+  margin-right: 25px;
+}
+
+.searchImage {
+  width: 20px;
+  height: 20px;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.details-matter {
+  padding-top: 20px;
+}
+.details-matter h1{
+  margin-bottom: 5px;
+}
+.layout-text p {
+  margin-top: 0;
+  text-align: center;
+}
+
+.image-block {
+  display: flex;
+  width: 600px;
+  height: 300px;
+}
+
+.bigBox {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#whatsNew {
+  color: red;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+#modernLayouts{
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+#thirdBox{
+  font-size: 1.5em;
+  color:transparent;
+}
+#fourthBox{
+  font-size: 1.5em;
+  color:transparent;
+}
+.bottom-box-container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.bottom-container {
+  display:flex;
+  width:600px;
+  justify-content: space-between;
+}
+
+.bottom-box {
+  width: 25%;
+  padding: 10px;
+  font-size: 10px;
+}
+
+span {
+  text-decoration: underline;
+}
